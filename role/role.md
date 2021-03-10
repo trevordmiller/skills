@@ -12,7 +12,7 @@
 
 ### Scope
 
-- Clearly defined scope with a single source of truth for goals, resposibilities, and assignments.
+- Clearly defined scope with a single source of truth for goals, responsibilities, and assignments.
 
 ### Balance
 
