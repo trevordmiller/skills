@@ -1,0 +1,41 @@
+on:
+  push:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  rust:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./exercises
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Compilation
+        run: cargo check
+      - name: Tests
+        run: cargo test
+      - name: Linting
+        run: cargo clippy --all-targets -- -D warnings
+      - name: Formatting
+        run: cargo fmt -- --check
+
+  javascript:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./exercises
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Packages
+        run: |
+          curl -fsSL https://deno.land/x/install/install.sh | sh -s v1.6.0
+          echo "$HOME/.deno/bin" >> "$GITHUB_PATH"
+      - name: Tests
+        run: deno test
+      - name: Linting
+        run: deno lint --unstable
+      - name: Formatting
+        run: deno fmt --check
