@@ -75,7 +75,14 @@ cargo new some_project [--lib]
 - Defaults to an executable project.
 - `--lib` for a library project.
 
-## Setup continuous integration
+## Verify in continuous integration
+
+```shell
+cargo check
+cargo test
+cargo clippy --all-targets -- -D warnings
+cargo fmt -- --check
+```
 
 Example:
 
@@ -333,7 +340,7 @@ some_value: some_type
 ## Annotate a type for a number without a decimal (integer types)
 
 ```rust
-{signed}{length}`
+{signed}{length}
 ```
 
 - Like `u32`, `i32`, `u64`, etc. If can be negative needs signed (`i`), if only positive can be unsigned (`u`).
@@ -365,7 +372,7 @@ bool
 Examples:
 
 ```rust
-let is_cool = true;
+let is_cool: bool = true;
 ```
 
 # Annotate a type for a unicode value / letter (character type)
@@ -377,19 +384,7 @@ char
 Examples:
 
 ```rust
-let laughing = 😂;
-```
-
-## Annotate a type for grouped values with a variety of types (tuple type)
-
-```rust
-(some_type, another_type, ...)
-```
-
-Examples:
-
-```rust
-let person = ("Jane", "Doe", 42)
+let laughing: char = 😂;
 ```
 
 ## Annotate a type for a collection of values with the same type (vector, allocated on the heap)
@@ -398,22 +393,10 @@ let person = ("Jane", "Doe", 42)
 Vec<some_type>
 ```
 
-Examples:
-
-```rust
-let users = vec![1, 2, 3]
-```
-
 ## Annotate a type for a collection of a fixed number of values with the same type (array, pushed onto / popped off the stack)
 
 ```rust
 [some_type; some_size]
-```
-
-Examples:
-
-```rust
-let sizes = ["small", "medium", "large"];
 ```
 
 ## Create a literal str
