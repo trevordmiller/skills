@@ -286,8 +286,11 @@ ps -ef | grep systemd
 ## Substitute a search pattern
 
 ```shell
-sed 's/some-search-pattern/some-replacement/g' [some-path]
+sed [-i] [""] 's/some-search-pattern/some-replacement/g' [some-path]
 ```
+
+- `-i` to overwrite file(s) in place.
+- `""` needed as a suffix in some versions.
 
 ## Transform lines
 
