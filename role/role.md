@@ -6,6 +6,8 @@
 
 Provides for my family.
 
+- Long-term stability.
+- Low layoffs.
 - Medical insurance.
 - Dental insurance.
 - Disability insurance.
@@ -37,6 +39,7 @@ Positive environment that encourages kindness and respect.
 - Mostly technical.
 - Low amount of emotionally charged tension and conflict.
 - Little managerial or political things.
+- Low turnover.
 
 ### Scope
 
@@ -47,6 +50,7 @@ Clearly defined scope with a single source of truth for goals, responsibilities,
 Uses my foundational experience.
 
 - Can keep using a Unix shell.
+- Regular time during business hours to strengthen skills.
 
 ## Ideals
 
