@@ -1,8 +1,8 @@
 # Role
 
-## Requirements
+**[Official documentation](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1256.pdf)**
 
-### Benefits
+## Benefits
 
 Provides for my family.
 
@@ -17,7 +17,7 @@ Provides for my family.
 - Base salary.
 - Salary increases.
 
-### Balance
+## Balance
 
 Healthy balance with life outside of work.
 
@@ -28,11 +28,11 @@ Healthy balance with life outside of work.
 - Decent time off.
 - Short commute or remote.
 
-### Purpose
+## Purpose
 
 Something that I feel purpose in that I believe in and can put my heart into.
 
-### Environment
+## Environment
 
 Positive environment that encourages kindness and respect.
 
@@ -41,39 +41,14 @@ Positive environment that encourages kindness and respect.
 - Little managerial or political things.
 - Low turnover.
 
-### Scope
+## Scope
 
 Clearly defined scope with a single source of truth for goals, responsibilities, and assignments.
 
-### Code
+## Code
 
-Uses my foundational experience.
+Fits well with my skills.
 
-- Can keep using a Unix shell.
+- Includes foundational skills and some specific skills.
 - Regular time during business hours to strengthen skills.
-
-## Ideals
-
-### Code
-
-Aligns well with my specialties.
-
-- Tests.
-- Performance.
-
-Prefers my preferred tradeoffs.
-
-- Stable.
-- Native.
-- Standard.
-- Lightweight.
-
-Includes things I'm especially passionate about.
-
-- Rust.
-- WebAssembly.
-- Shell.
-- Vim.
-- Linux.
-- Docker.
-- Git.
+- Can use a Unix shell.

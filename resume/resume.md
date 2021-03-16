@@ -2,10 +2,6 @@
 
 ## Skills
 
-- **Specialties:** tests, performance.
-- **Preferred tradeoffs:** stable, native, standard, lightweight.
-- **Examples:** Rust, WebAssembly, Shell, Vim, Linux, Docker, Git, GitHub, HTTP, HTML, CSS, JavaScript, Node, React.
-
 _See [github.com/trevordmiller/skills](https://github.com/trevordmiller/skills)._
 
 ## Experience
