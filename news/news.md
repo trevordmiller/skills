@@ -4,5 +4,5 @@
 - [GitHub Trending - Top Month](https://github.com/trending?since=monthly).
 - [YouTube Fireship - Latest](https://ytprivate.com/channel/UCsBjURrPoezykLs9EqgamOA).
 - [Reddit Programming - Top Month](http://web.uforio.com/#r/programming/top-month).
-- [Reddit Rust - Top Month](http://web.uforio.com/#r/rust/top-month).
 - [Reddit JavaScript - Top Month](http://web.uforio.com/#r/javascript/top-month).
+- [Reddit Rust - Top Month](http://web.uforio.com/#r/rust/top-month).
