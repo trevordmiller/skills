@@ -4,6 +4,13 @@ on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
+  general:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Formatting
+        run: npx prettier --ignore-path ./.gitignore --check . 
   javascript:
     runs-on: ubuntu-latest
     defaults:
