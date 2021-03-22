@@ -38,7 +38,7 @@ Director of Instruction (July 2015 - May 2017).
 - Built the component library shared across applications.
 - Recorded and published my own courses as a code instructor.
 
-_See [https://egghead.io/q/resources-by-trevor-miller](https://egghead.io/q/resources-by-trevor-miller)._
+_See [egghead.io/q/resources-by-trevor-miller](https://egghead.io/q/resources-by-trevor-miller)._
 
 ### Domo
 
