@@ -1,7 +1,5 @@
 # Curl
 
-**[Official documentation](https://curl.se/docs/)**
-
 ## Transfer data with URLs
 
 ```shell

@@ -1,6 +1,4 @@
-# Hypertext Transfer Protocol
-
-**[Official documentation](https://httpwg.org/specs/)**
+# HTTP
 
 ## Retrieve data
 

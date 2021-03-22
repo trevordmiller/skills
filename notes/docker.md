@@ -1,7 +1,5 @@
 # Docker
 
-**[Official documentation](https://docs.docker.com)**
-
 ## Create a container
 
 ```shell

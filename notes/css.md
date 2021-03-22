@@ -1,6 +1,4 @@
-# Cascading Style Sheets
-
-**[Official documentation](https://www.w3.org/Style/CSS/Overview.en.html)**
+# CSS
 
 ## Align items in a row vertically
 

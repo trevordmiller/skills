@@ -1,7 +1,5 @@
 # Linux
 
-**[Official documentation](https://www.kernel.org/doc/man-pages/)**
-
 ## Manage packages with Advanced Package Tool
 
 ```shell

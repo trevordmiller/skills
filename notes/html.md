@@ -1,6 +1,4 @@
-# Hypertext Markup Language
-
-**[Official documentation](https://html.spec.whatwg.org)**
+# HTML
 
 ## Create a document
 

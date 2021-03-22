@@ -1,7 +1,5 @@
 # C
 
-**[Official documentation](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1256.pdf)**
-
 ## Compile source code into an executable
 
 ```shell

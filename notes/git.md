@@ -1,7 +1,5 @@
 # Git
 
-**[Official documentation](https://git-scm.com/docs)**
-
 ## Create a feature branch
 
 ```shell

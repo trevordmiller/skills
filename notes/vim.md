@@ -1,6 +1,4 @@
-# Vi Improved
-
-**[Official documentation](https://www.vim.org/docs.php)**
+# Vim
 
 ## Start a vim process
 

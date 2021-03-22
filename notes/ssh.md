@@ -1,6 +1,4 @@
-# Secure Shell
-
-**[Official documentation](https://www.ssh.com/ssh/command)**
+# SSH
 
 ## Start an ssh process on a remote machine
 

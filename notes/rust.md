@@ -1,7 +1,5 @@
 # Rust
 
-**[Official documentation](https://www.rust-lang.org/learn)**
-
 ## View documentation
 
 ```shell

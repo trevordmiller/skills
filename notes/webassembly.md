@@ -1,7 +1,5 @@
 # WebAssembly
 
-**[Official documentation](https://webassembly.org/getting-started/developers-guide/)**
-
 ## Use in a browser document (HTML)
 
 ```html
