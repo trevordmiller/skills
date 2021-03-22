@@ -6,7 +6,6 @@
 - [SSH](https://www.ssh.com/ssh/command).
 - [Curl](https://curl.se/docs/).
 - [Linux](https://www.kernel.org/doc/man-pages/).
-- [Docker](https://docs.docker.com).
 - [Git](https://git-scm.com/docs).
 - [Markdown](https://commonmark.org/help/).
 - [HTTP](https://httpwg.org/specs/).
