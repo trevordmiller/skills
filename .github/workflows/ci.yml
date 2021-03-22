@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
-  javascript:
+  exercises:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -22,19 +22,3 @@ jobs:
         run: deno lint --unstable
       - name: Formatting
         run: deno fmt --check
-  rust:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./exercises
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Compilation
-        run: cargo check
-      - name: Tests
-        run: cargo test
-      - name: Linting
-        run: cargo clippy --all-targets -- -D warnings
-      - name: Formatting
-        run: cargo fmt -- --check

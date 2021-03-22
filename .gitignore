@@ -1,5 +1,2 @@
 .DS_Store
 *.swp
-target/
-**/*.rs.bk
-Cargo.lock

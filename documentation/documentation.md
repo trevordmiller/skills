@@ -14,4 +14,3 @@
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html).
 - [JavaScript](https://tc39.es/ecma262/).
 - [WebAssembly](https://webassembly.org/getting-started/developers-guide/).
-- [Rust](https://www.rust-lang.org/learn).

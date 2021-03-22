@@ -7,4 +7,3 @@
 - [Reddit Programming - Top Month](https://www.reddit.com/r/programming/top/?t=month).
 - [Reddit WebDev - Top Month](https://www.reddit.com/r/webdev/top/?t=month).
 - [Reddit JavaScript - Top Month](https://www.reddit.com/r/javascript/top/?t=month).
-- [Reddit Rust - Top Month](https://www.reddit.com/r/rust/top/?t=month).
