@@ -68,6 +68,9 @@ gg
 # File bottom
 G
 
+# Line number
+#G
+
 # Format
 =
 
