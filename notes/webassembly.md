@@ -4,7 +4,7 @@
 
 ```html
 <script>
-const binaryResult = await WebAssembly.instantiateStreaming(fetch('/some-binary.wasm'));
-binaryResult.instance.exports.some_exported_function();
+  const binaryResult = await WebAssembly.instantiateStreaming(fetch('/some-binary.wasm'));
+  binaryResult.instance.exports.some_exported_function();
 </script>
 ```
