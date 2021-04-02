@@ -1,6 +1,5 @@
 # Documentation
 
-- [C](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1256.pdf).
 - [Shell](https://pubs.opengroup.org/onlinepubs/9699919799/).
 - [Vim](https://www.vim.org/docs.php).
 - [SSH](https://www.ssh.com/ssh/command).
