@@ -1,55 +1,5 @@
 # Linux
 
-## Manage packages with Advanced Package Tool
-
-```shell
-# Refresh package index
-apt-get update
-
-# Search for a package
-apt-cache search "some search"
-
-# View details about a package
-apt-cache show some-package
-
-# Install packages
-apt-get install some-package
-
-# Upgrade packages
-apt-get upgrade some-package
-
-# Uninstall packages
-apt-get remove some-package
-
-# List installed packages
-apt list --installed
-```
-
-## Manage packages with Snap
-
-```shell
-# Refresh package index
-snap refresh
-
-# Search for a package
-snap find "some search"
-
-# View details about a package
-snap info some-package
-
-# Install packages
-snap install some-package
-
-# Upgrade packages
-snap refresh some-package
-
-# Uninstall packages
-snap remove some-package
-
-# List installed packages
-snap list
-```
-
 ## Navigate the filesystem
 
 ```shell

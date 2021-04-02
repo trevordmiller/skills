@@ -287,28 +287,3 @@ const json = await response.json();
 <script type="module" src="/some-script.js"></script>
 <noscript>Some script fallback</noscript>
 ```
-
-## Use in a server environment (Node)
-
-```shell
-# View help
-node --help
-
-# Run a repl
-node
-
-# Run a program
-node some-path
-
-# Run a script
-npm run some-script
-
-# Create a package
-npm init
-
-# Install a dependency
-npm install some-package [--save-dev]
-
-# View details about a package
-npm view some-package
-```
