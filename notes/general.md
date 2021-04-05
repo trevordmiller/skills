@@ -4,35 +4,35 @@
 
 - Recognize tradeoffs.
 - Prefer long term stability.
-- Identify problems before identifying solutions.
-- Identify root causes of problems.
+- Identify root problems before solutions.
 - Break problems into small pieces.
-- Use automated tests where useful.
 - Avoid abstracting until clear.
-- Define interfaces when abstracting.
-- Iterate on implementation details.
 
 Examples:
 
-- Native versus custom.
-- End user experience vs developer experience.
+- Iteration versus overhaul.
+- Direct versus encapsulated.
+- Native versus dependencies.
+- Defaults versus configuration.
+- Classic versus innovative.
+- Foundational versus trending.
+- Standard versus custom.
 - Simple versus flexible.
-- Lightweight versus feature rich.
-- Optimized vs portable.
-- Does one thing well versus has many options.
-- Defaults versus configured.
+- Concrete versus generic.
+- Explicit versus automatic.
+- Decoupled versus integrated.
+- Lightweight versus feature-rich.
+- Minimal versus convenient.
+- Fast versus portable.
+- Static versus runtime.
 - Deterministic versus stateful.
 - Declarative versus imperative.
 - Composition versus inheritance.
-- Explicit vs implicit.
-- Decoupled vs coupled.
-- Concrete vs generic.
-- Compiled vs runtime.
-- Quality vs quantity.
+- Quality versus quantity.
 
-> "Although {some trendy thing} looks exciting, I feel the value may not be worth the cost. I would suggest that we stick with {some native thing} instead for the tradeoff of long term stability."
+> "Although {some trending thing} looks exciting, I feel the value may not be worth the cost. I would suggest that we stick with {some native thing} instead for the tradeoff of long term stability."
 
-> "It sounds like the problem we are trying to solve is that end users need to be able to submit a date with this form so that they can know what day to plan on. I would suggest that we use the native `<input type="date">` instead of adding a custom 3rd party date picker. We'd likely be giving up some flexibility and features in exchange for long term stability and operating system integrations like device specific inputs, GPU accelerated performance, automatic accessibility and localization, and any other improvements that devices and browsers add in the future without extra maintenance costs on our end."
+> "It sounds like the problem we are trying to solve is that end users need to be able to submit a date with this form so that they can know what day to plan on. I would suggest that we use the native `<input type="date">` instead of adding a custom 3rd party date picker. We'd likely be giving up some flexibility and features in exchange for long term stability and operating system integrations like device specific inputs, GPU accelerated performance, improved accessibility and localization, and any other improvements that devices and browsers add in the future without extra maintenance costs on our end."
 
 > "Perhaps {that} runtime error is a symptom of {this} runtime error? I'd suggest creating a minimal reproducible example to confirm."
 
