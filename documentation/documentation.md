@@ -7,6 +7,7 @@
 - [Linux](https://www.kernel.org/doc/man-pages/).
 - [Git](https://git-scm.com/docs).
 - [Markdown](https://commonmark.org/help/).
+- [Web](https://web.dev/learn/).
 - [HTTP](https://httpwg.org/specs/).
 - [HTML](https://html.spec.whatwg.org).
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html).
