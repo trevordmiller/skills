@@ -123,11 +123,15 @@ Example:
 </ol>
 ```
 
-## Create a link to a URL
+## Create a link
 
 ```html
-<a href="some-url">Some label</a>
+<a href="some-path" [download]>Some label</a>
 ```
+
+- Email path: `mailto:{some-email}?subject={some-subject}&body={some-body}`.
+- Call path: `tel:{some-phone}`.
+- SMS path: `sms:{some-phone}?body={some-body}`.
 
 ## Create clickable actions
 
@@ -139,36 +143,54 @@ Example:
 
 ```html
 <form>
+  ...
+</form>
+```
+
+```html
   <label for="some-id">Some label</label>
   <input
     id="some-id"
-    type="number/tel/url/email/password/file/color/radio/checkbox/range/text"
+    type="number/tel/url/email/date/password/file/color/radio/checkbox/range/text"
+    required
+    pattern="some-search-pattern"
     ...
   />
+```
 
+```html
   <label for="some-id">Some label</label>
   <textarea id="some-id" />
+```
 
+```html
   <select>
     <option>Some label</option>
     <option>Some label</option>
   </select>
+```
 
-  <datalist>
+```html
+  <label for="some-id">Some label</label>
+  <input list="list-id" id="some-id" />
+  <datalist id="list-id">
     <option>Some label</option>
     <option>Some label</option>
   </datalist>
-
-  <button type="submit">Some label</button>
-</form>
 ```
 
-The form elements can use client-side validation with validation attributes on form elements like `required`, `type`, `minlength`, `maxlength`, `min`, `max`, `pattern` (search pattern).
-
-## Create a date picker
+```html
+  <label for="some-id">Some label</label>
+  <progress id="some-id" max="100" value="70">Some label</progress>
+```
 
 ```html
-<input type="date" ... />
+  <label for="some-id">Some label</label>
+  <meter id="some-id" min="0" max="100" low="25" high="50" optimum="75" value="90"></meter>
+```
+
+```html
+  <button type="submit">Some label</button>
 ```
 
 ## Create an accordion
@@ -186,45 +208,22 @@ The form elements can use client-side validation with validation attributes on f
 <dialog open>...</dialog>
 ```
 
-## Create a progress indicator
-
-```html
-<label for="some-id">Some label</label>
-<progress id="some-id" max="100" value="70">Some label</progress>
-```
-
 ## Create an embedded image
 
 ```html
-<img src="some-path" alt="Some fallback description" />
-```
-
-## Create an embedded image with lazy loading
-
-```html
-<img src="some-path" alt="Some fallback description" loading="lazy" />
-```
-
-## Create an embedded image with versions for different devices or screen sizes
-
-```html
-<picture>
-  <source srcset="some-path" media="some-condition" />
-  <source srcset="some-path" media="some-condition" />
-  <img src="some-path" alt="Some fallback description" />
-</picture>
+<img srcset="some-path some-size, another-path another-size" sizes="some-size, (min-width: some-breakpoint) another-size" src="some-path" alt="Some description" loading="lazy">
 ```
 
 ## Create an embedded audio player
 
 ```html
-<audio src="some-path" ...>Some fallback description</audio>
+<audio src="some-path" ...>Some description</audio>
 ```
 
 ## Create an embedded video player
 
 ```html
-<video src="some-path" ...>Some fallback description</video>
+<video src="some-path" ...>Some description</video>
 ```
 
 ## Create an embedded web page
@@ -248,7 +247,7 @@ The form elements can use client-side validation with validation attributes on f
 ## Create programmatic graphics
 
 ```html
-<canvas>Some fallback description </canvas>
+<canvas>Some description </canvas>
 ```
 
 ## Create columns and rows of tabular data
