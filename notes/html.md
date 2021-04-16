@@ -7,11 +7,11 @@
 
 <html lang="some-language">
   <head>
-    <!-- Head elements --> 
+    ...
   </head>
 
   <body>
-    <!-- Body elements --> 
+    ...
   </body>
 </html>
 ```
