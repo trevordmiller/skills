@@ -211,7 +211,13 @@ Example:
 ## Create an embedded image
 
 ```html
-<img srcset="some-path some-size, another-path another-size" sizes="some-size, (min-width: some-breakpoint) another-size" src="some-path" alt="Some description" loading="lazy">
+<img
+  srcset="some-path some-size, another-path another-size"
+  sizes="some-size, (min-width: some-breakpoint) another-size"
+  src="some-path"
+  alt="Some description"
+  loading="lazy"
+/>
 ```
 
 ## Create an embedded audio player
