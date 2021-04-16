@@ -1,6 +1,5 @@
 # News
 
-- [Hacker News](https://hntrending.com/top/month/index.html).
 - [GitHub Trending](https://github.com/trending?since=monthly).
 - [YouTube Fireship](https://www.youtube.com/c/AngularFirebase/videos).
 - [Reddit Programming](https://www.reddit.com/r/programming/top/?t=month).
