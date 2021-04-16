@@ -10,25 +10,25 @@
 
 Examples:
 
-- Iteration versus overhaul.
-- Direct versus encapsulated.
-- Native versus dependencies.
-- Defaults versus configuration.
-- Classic versus innovative.
-- Foundational versus trending.
-- Standard versus custom.
-- Simple versus flexible.
-- Concrete versus generic.
-- Explicit versus automatic.
-- Decoupled versus integrated.
-- Lightweight versus feature-rich.
-- Minimal versus convenient.
-- Fast versus portable.
-- Static versus runtime.
-- Deterministic versus stateful.
-- Declarative versus imperative.
-- Composition versus inheritance.
-- Quality versus quantity.
+- Iteration over overhaul.
+- Direct over encapsulated.
+- Native over dependencies.
+- Defaults over configuration.
+- Classic over innovative.
+- Foundational over trending.
+- Standard over custom.
+- Simple over flexible.
+- Concrete over generic.
+- Explicit over automatic.
+- Decoupled over integrated.
+- Lightweight over feature-rich.
+- Minimal over convenient.
+- Fast over portable.
+- Static over runtime.
+- Deterministic over stateful.
+- Declarative over imperative.
+- Composition over inheritance.
+- Quality over quantity.
 
 > "Although {some trending thing} looks exciting, I feel the value may not be worth the cost. I would suggest that we stick with {some native thing} instead for the tradeoff of long term stability."
 
