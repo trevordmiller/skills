@@ -10,14 +10,14 @@
 
 Examples:
 
-- Iteration over overhaul.
-- Direct over encapsulated.
-- Native over dependencies.
 - Defaults over configuration.
+- Direct over abstraction.
+- Native over dependencies.
 - Classic over innovative.
 - Foundational over trending.
 - Standard over custom.
 - Simple over flexible.
+- Iteration over overhaul.
 - Concrete over generic.
 - Explicit over automatic.
 - Decoupled over integrated.
