@@ -434,12 +434,6 @@ Examples:
 for dir in */; do echo "$dir"; done
 ```
 
-## Change ownership of a file / directory
-
-```shell
-chown some-user some-path
-```
-
 ## Get the last file / directory name in a path
 
 ```shell
@@ -453,6 +447,12 @@ for itemPath in ~/some-path/items/*; do
   item=$(basename $itemPath)
   echo "$item"
 done
+```
+
+## Change ownership of a file / directory
+
+```shell
+chown some-user some-path
 ```
 
 ## Change permissions of a file / directory
