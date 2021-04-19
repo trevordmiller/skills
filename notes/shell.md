@@ -449,6 +449,14 @@ for itemPath in ~/some-path/items/*; do
 done
 ```
 
+## Check the size of file / directory
+
+```shell
+du [-s] some-path
+```
+
+- `-s` for a sum.
+
 ## Change ownership of a file / directory
 
 ```shell
