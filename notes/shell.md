@@ -440,6 +440,21 @@ for dir in */; do echo "$dir"; done
 chown some-user some-path
 ```
 
+## Get the last file / directory name in a path
+
+```shell
+basename some-path
+```
+
+Example:
+
+```shell
+for itemPath in ~/some-path/items/*; do
+  item=$(basename $itemPath)
+  echo "$item"
+done
+```
+
 ## Change permissions of a file / directory
 
 ```shell
