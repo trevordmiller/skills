@@ -290,6 +290,32 @@ sed [-i] [""] 's/some-search-pattern/some-replacement/g' [some-path]
 - `-i` to overwrite file(s) in place.
 - `""` needed as a suffix in some versions.
 
+## Sort lines
+
+```shell
+sort [-r] [some-file]
+```
+
+- `-r` for reverse.
+
+## Filter adjacent repeated lines
+
+```shell
+uniq [some-file]
+```
+
+Example:
+
+```shell
+sort some-file | uniq
+```
+
+## Count lines
+
+```shell
+wc -l [some-file]
+```
+
 ## Transform lines
 
 ```shell
