@@ -268,12 +268,13 @@ echo "Some text to append to file" >> some-file
 ## Find a search pattern
 
 ```shell
-grep [-iRl] some-search-pattern [some-path]
+grep [-iRlv] some-search-pattern [some-path]
 ```
 
 - `-i` to ignore casing.
 - `-R` for recursive.
-- `-l` for names of files with matches.
+- `-l` for file names.
+- `-v` for non matching.
 
 Example:
 
