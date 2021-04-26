@@ -10,9 +10,6 @@ My personal skills. I use this repository to help me:
 > hunting skills, computer hacking skills. Girls only want boyfriends who have
 > great skills." - Napoleon Dynamite
 
-
-
-
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
