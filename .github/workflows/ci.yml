@@ -6,9 +6,6 @@ on:
 jobs:
   exercises:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./exercises
     steps:
       - name: Checkout
         uses: actions/checkout@v2
