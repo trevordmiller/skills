@@ -62,6 +62,12 @@ someArray.every(someItem => // return boolean for the condition)
 someArray.some(someItem => // return boolean for the condition)
 ```
 
+## Get the first item in an array that meets a condition
+
+```javascript
+someArray.find(someItem => // return boolean for the condition)
+```
+
 ## Convert an array to a single value
 
 ```javascript
@@ -102,6 +108,12 @@ someArray.sort();
 
 ```javascript
 someArray.slice(someStartIndex, someEndIndex);
+```
+
+## Get the index of an item in an array
+
+```javascript
+someString.indexOf(someIndex);
 ```
 
 ## Combine arrays
@@ -150,6 +162,12 @@ someString.join(someSearchPattern);
 
 ```javascript
 someString.replace(someSearchPattern, someReplacement);
+```
+
+## Find search patterns in a string
+
+```javascript
+someString.match(someSearchPattern);
 ```
 
 ## Get a character at a specific index in a string
