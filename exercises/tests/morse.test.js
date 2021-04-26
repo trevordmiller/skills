@@ -3,6 +3,18 @@ import morse from "../src/morse.js";
 
 test({
   description: "morse baseline",
-  actual: morse("daily"),
-  expected: "-...-...-..-.--",
+  actual: morse("three"),
+  expected: "-.....-...",
+});
+
+test({
+  description: "morse short",
+  actual: morse("sos"),
+  expected: "...---...",
+});
+
+test({
+  description: "morse long",
+  actual: morse("programmer"),
+  expected: ".--..-.-----..-..-----..-.",
 });
