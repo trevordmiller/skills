@@ -148,7 +148,8 @@ Example:
 ```
 
 ```html
-<label for="some-id">Some label</label>
+<form>
+  <label for="some-id">Some label</label>
   <input
     id="some-id"
     type="number/tel/url/email/date/password/file/color/radio/checkbox/range/text"
@@ -156,41 +157,48 @@ Example:
     pattern="some-search-pattern"
     ...
   />
+</form>
 ```
 
 ```html
-<label for="some-id">Some label</label>
+<form>
+  <label for="some-id">Some label</label>
   <textarea id="some-id" />
+</form>
 ```
 
 ```html
-<select>
+<form>
+  <select>
     <option>Some label</option>
     <option>Some label</option>
   </select>
+</form>
 ```
 
 ```html
-<label for="some-id">Some label</label>
+<form>
+  <label for="some-id">Some label</label>
   <input list="list-id" id="some-id" />
   <datalist id="list-id">
     <option>Some label</option>
     <option>Some label</option>
   </datalist>
+</form>
 ```
 
 ```html
-<label for="some-id">Some label</label>
+<form>
+  <label for="some-id">Some label</label>
   <progress id="some-id" max="100" value="70">Some label</progress>
+</form>
 ```
 
 ```html
-<label for="some-id">Some label</label>
+<form>
+  <label for="some-id">Some label</label>
   <meter id="some-id" min="0" max="100" low="25" high="50" optimum="75" value="90"></meter>
-```
-
-```html
-<button type="submit">Some label</button>
+</form>
 ```
 
 ## Create an accordion
