@@ -11,7 +11,7 @@
 Examples:
 
 - Defaults over configuration.
-- Direct over abstraction.
+- Direct over layers.
 - Native over dependencies.
 - Classic over innovative.
 - Foundational over trending.
@@ -24,6 +24,7 @@ Examples:
 - Lightweight over feature-rich.
 - Minimal over convenient.
 - Fast over portable.
+- Semantic over visual.
 - Static over runtime.
 - Deterministic over stateful.
 - Declarative over imperative.
