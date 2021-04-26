@@ -95,7 +95,7 @@ someArray.sort();
 ## Reverse an array
 
 ```javascript
-[...someArray].reverse()
+[...someArray].reverse();
 ```
 
 ## Get the unique items in an array
@@ -197,7 +197,7 @@ someString.repeat(someAmount);
 Example:
 
 ```javascript
-"a".repeat(4)
+"a".repeat(4);
 // "aaaa"
 ```
 
@@ -210,26 +210,26 @@ Example:
 ## Convert a string into a number
 
 ```javascript
-Number(someString)
+Number(someString);
 ```
 
 Example:
 
 ```javascript
-Number("123")
+Number("123");
 // 123
 ```
 
 ## Parse an integer inside a string
 
 ```javascript
-parseInt(someString, radix)
+parseInt(someString, radix);
 ```
 
 Example:
 
 ```javascript
-parseInt("123abc", 10)
+parseInt("123abc", 10);
 // 123
 ```
 

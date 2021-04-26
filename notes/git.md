@@ -53,7 +53,8 @@ git merge/rebase origin/some-target-branch
 git push [-f]
 ```
 
-- `rebase` requires `-f` because it rewrites the feature branch commits on top of the commits from the target branch.
+- `rebase` requires `-f` because it rewrites the feature branch commits on top
+  of the commits from the target branch.
 
 ## Show diff
 
@@ -110,7 +111,8 @@ git log [-#] [-p] [-S "some-search-pattern"] [--since="date"] [--until="date"] [
 - `-S` for specific matches.
 - `--since="date"` for before a specific date.
 - `--until="date"` for after a specific date.
-- `date` for a date (like `yesterday`, `last week`, `30 minutes ago`, `01-01-2000`).
+- `date` for a date (like `yesterday`, `last week`, `30 minutes ago`,
+  `01-01-2000`).
 - `--stat` for insertions / deletions.
 - `--oneline` for condensed formatting.
 - `--graph` for a graphical representation.

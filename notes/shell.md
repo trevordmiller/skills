@@ -193,7 +193,8 @@ kill [-15/-9] some-pid
 ```
 
 - `-15` sends a SIGTERM signal to try to gracefully kill a process.
-- `-9` sends a SIGKILL signal to force a process to quit with potential data loss or corruption.
+- `-9` sends a SIGKILL signal to force a process to quit with potential data
+  loss or corruption.
 
 ## Stop the current process
 

@@ -30,7 +30,8 @@ Common HTTP status codes include:
 
 - `200` is a catchall for success
 - `404` means the requested resource is not available
-- `403` means the requester does not have permission to access the requested resource
+- `403` means the requester does not have permission to access the requested
+  resource
 - `500` is a catchall for server-side errors
 
 ## Include additional information in requests or responses
