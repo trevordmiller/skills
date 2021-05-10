@@ -1,6 +1,6 @@
-const checkPangram = (sentence) => {
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+const checkPangram = (sentence) => {
   const cleanSentence = sentence
     .replace(/[^A-Za-z]/g, "")
     .toUpperCase();

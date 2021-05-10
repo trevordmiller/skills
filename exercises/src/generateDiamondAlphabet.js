@@ -1,9 +1,9 @@
+const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 const generateDiamondAlphabet = (centerLetter) => {
   if (centerLetter === "") {
     return [""];
   }
-
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   const rowLetters = alphabet.slice(0, alphabet.indexOf(centerLetter) + 1)
     .split("");

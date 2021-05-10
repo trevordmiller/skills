@@ -1,7 +1,7 @@
-const concealMessage = ({ message, key }) => {
-  const alphabetStartCharCode = 65;
-  const alphabetEndCharCode = 90;
+const alphabetStartCharCode = 65;
+const alphabetEndCharCode = 90;
 
+const concealMessage = ({ message, key }) => {
   const messageLetters = message.toUpperCase().split("");
   const keyLetters = key.toUpperCase().split("");
 

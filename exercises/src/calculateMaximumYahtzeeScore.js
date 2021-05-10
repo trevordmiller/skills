@@ -1,7 +1,7 @@
-const calculateMaximumYahtzeeScore = (roll) => {
-  const calculatePossibleScore = (roll, number) =>
-    roll.filter((dice) => dice === number).length * number;
+const calculatePossibleScore = (roll, number) =>
+  roll.filter((dice) => dice === number).length * number;
 
+const calculateMaximumYahtzeeScore = (roll) => {
   const possibleScores = [
     calculatePossibleScore(roll, 1),
     calculatePossibleScore(roll, 2),

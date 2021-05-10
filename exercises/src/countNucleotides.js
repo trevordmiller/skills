@@ -1,11 +1,11 @@
-const countNucleotides = (strand) => {
-  const nucleotidesByLetter = {
-    A: "adenine",
-    C: "cytosine",
-    G: "guanine",
-    T: "thymine",
-  };
+const nucleotidesByLetter = {
+  A: "adenine",
+  C: "cytosine",
+  G: "guanine",
+  T: "thymine",
+};
 
+const countNucleotides = (strand) => {
   const initialResult = {
     adenine: 0,
     cytosine: 0,

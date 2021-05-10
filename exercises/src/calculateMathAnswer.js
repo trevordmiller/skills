@@ -1,11 +1,11 @@
-const calculateMathAnswer = (question) => {
-  const operators = {
-    plus: "+",
-    minus: "-",
-    multiplied: "*",
-    divided: "/",
-  };
+const operators = {
+  plus: "+",
+  minus: "-",
+  multiplied: "*",
+  divided: "/",
+};
 
+const calculateMathAnswer = (question) => {
   const parsedSteps = question
     .replace("?", "")
     .split(" ")
