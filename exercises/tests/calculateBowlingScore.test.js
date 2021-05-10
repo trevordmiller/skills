@@ -1,0 +1,237 @@
+import test from "./test.js";
+import calculateBowlingScore from "../src/calculateBowlingScore.js";
+
+test({
+  description: "calculateBowlingScore baseline",
+  actual: calculateBowlingScore([
+    3,
+    6,
+    3,
+    6,
+    3,
+    6,
+    3,
+    6,
+    3,
+    6,
+    3,
+    6,
+    3,
+    6,
+    3,
+    6,
+    3,
+    6,
+    3,
+    6,
+  ]),
+  expected: 90,
+});
+
+test({
+  description: "calculateBowlingScore no pins",
+  actual: calculateBowlingScore([
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+  ]),
+  expected: 0,
+});
+
+test({
+  description: "calculateBowlingScore spare",
+  actual: calculateBowlingScore([
+    6,
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+  ]),
+  expected: 16,
+});
+
+test({
+  description: "calculateBowlingScore spare no bonus",
+  actual: calculateBowlingScore([
+    6,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+  ]),
+  expected: 10,
+});
+
+test({
+  description: "calculateBowlingScore consecutive spares",
+  actual: calculateBowlingScore([
+    5,
+    5,
+    3,
+    7,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+  ]),
+  expected: 31,
+});
+
+test({
+  description: "calculateBowlingScore last frame spare",
+  actual: calculateBowlingScore(
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 3, 7],
+  ),
+  expected: 17,
+});
+
+test({
+  description: "calculateBowlingScore strike",
+  actual: calculateBowlingScore([
+    10,
+    5,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+  ]),
+  expected: 26,
+});
+
+test({
+  description: "calculateBowlingScore strike no bonus",
+  actual: calculateBowlingScore([
+    10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+  ]),
+  expected: 10,
+});
+
+test({
+  description: "calculateBowlingScore consecutive strikes",
+  actual: calculateBowlingScore([
+    10,
+    10,
+    10,
+    5,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+  ]),
+  expected: 81,
+});
+
+test({
+  description: "calculateBowlingScore last frame strike",
+  actual: calculateBowlingScore(
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 7, 1],
+  ),
+  expected: 18,
+});
+
+test({
+  description: "calculateBowlingScore all strikes",
+  actual: calculateBowlingScore(
+    [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+  ),
+  expected: 300,
+});
