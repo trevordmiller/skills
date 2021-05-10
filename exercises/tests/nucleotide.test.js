@@ -36,7 +36,9 @@ test({
 
 test({
   description: "nucleotide large",
-  actual: nucleotide("AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"),
+  actual: nucleotide(
+    "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC",
+  ),
   expected: ({
     adenine: 20,
     cytosine: 12,

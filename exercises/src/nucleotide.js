@@ -21,10 +21,10 @@ const nucleotide = (strand) => {
       return ({
         ...result,
         [label]: result[label] + 1,
-      })
+      });
     }, initialResult);
 
   return result;
-}
+};
 
 export default nucleotide;
