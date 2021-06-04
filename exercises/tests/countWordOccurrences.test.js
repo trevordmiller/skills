@@ -93,6 +93,26 @@ test({
 });
 
 test({
+  description: "countWordOccurrences possessive apostrophes",
+  actual: countWordOccurrences("My sister's friends' investments."),
+  expected: ({
+    "friends'": 1,
+    "investments": 1,
+    "my": 1,
+    "sister's": 1,
+  }),
+});
+
+test({
+  description: "countWordOccurrences proclitic apostrophes",
+  actual: countWordOccurrences("'Tis true."),
+  expected: ({
+    "'tis": 1,
+    "true": 1,
+  }),
+});
+
+test({
   description: "countWordOccurrences non-word punctuation",
   actual: countWordOccurrences(
     "it's like car: carpet as java: javascript it's!!&@$%^&'",
@@ -162,7 +182,7 @@ test({
 test({
   description: "countWordOccurrences complex",
   actual: countWordOccurrences(
-    `"That's the password: 'PASSWORD 123'!", cried the Special Agent.\nSo I fled,\n,one,\n ,two \n 'three'`,
+    `"That's the password: PASSWORD 123!", cried the Special Agent.\nSo I fled,\n,one,\n ,two \n 'three'`,
   ),
   expected: ({
     123: 1,

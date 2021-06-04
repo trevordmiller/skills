@@ -3,8 +3,10 @@ const countWordOccurrences = (phrase) => {
     .toLowerCase()
     .match(/[a-z0-9']+/g, "")
     .filter((word) => /[a-z0-9]/g.test(word))
-    .map((word) => word.replace(/^'/, ""))
-    .map((word) => word.replace(/'$/, ""))
+    .map((word) => {
+      const match = word.match(/^'(.+)'$/);
+      return match ? match[1] : word;
+    })
     .sort();
 
   const wordOccurences = words.reduce((result, word) => {
