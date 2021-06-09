@@ -272,6 +272,7 @@ Examples:
 ```javascript
 // Output values to the console
 console.log(someValue);
+console.table(someTabularValue);
 
 // Create assertions
 console.assert(someExpression, "Some label");
