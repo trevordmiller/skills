@@ -1,22 +1,12 @@
 const checkIsogram = (word) => {
-  const characterCounts = word
+  const characters = word
     .toLowerCase()
     .split("")
-    .reduce((result, character) => {
-      if (character === "-") {
-        return result;
-      }
+    .filter((character) => character !== "-");
 
-      const count = result[character] || 0;
+  const uniqueCharacters = [...new Set(characters)];
 
-      return ({
-        ...result,
-        [character]: count + 1,
-      });
-    }, {});
-
-  const isIsogram = Object.keys(characterCounts)
-    .every((character) => characterCounts[character] === 1);
+  const isIsogram = characters.length === uniqueCharacters.length;
 
   return isIsogram;
 };
