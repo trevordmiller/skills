@@ -3,7 +3,6 @@
 ## Use principles for guidance
 
 - Recognize tradeoffs.
-- Prefer long term stability.
 - Identify root problems before solutions.
 - Break problems into small pieces.
 - Avoid abstracting until clear.
@@ -31,15 +30,15 @@ Examples:
 - Composition over inheritance.
 - Quality over quantity.
 
-> "Although {some trending thing} looks exciting, I feel the value may not be
+> "Although {some 3rd party thing} looks exciting, I feel the value may not be
 > worth the cost. I would suggest that we stick with {some native thing} instead
-> for the tradeoff of long term stability."
+> for the stability tradeoff."
 
 > "It sounds like the problem we are trying to solve is that end users need to
 > be able to submit a date with this form so that they can know what day to plan
 > on. I would suggest that we use the native `<input type="date">` instead of
 > adding a custom 3rd party date picker. We'd likely be giving up some
-> flexibility and features in exchange for long term stability and operating
+> flexibility and features in exchange for lower maintenance and operating
 > system integrations like device specific inputs, GPU accelerated performance,
 > improved accessibility and localization, and any other improvements that
 > devices and browsers add in the future without extra maintenance costs on our
