@@ -5,7 +5,7 @@ const complements = {
   A: "U",
 };
 
-const convertRNAComplementTranscription = (dna) => {
+const convertRnaComplementTranscription = (dna) => {
   const conversion = dna
     .split("")
     .map((nucleotide) => complements[nucleotide])
@@ -14,4 +14,4 @@ const convertRNAComplementTranscription = (dna) => {
   return conversion;
 };
 
-export default convertRNAComplementTranscription;
+export default convertRnaComplementTranscription;
