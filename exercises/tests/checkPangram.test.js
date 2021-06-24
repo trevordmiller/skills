@@ -2,7 +2,7 @@ import test from "./test.js";
 import checkPangram from "../src/checkPangram.js";
 
 test({
-  description: "checkPangram baseline",
+  description: "checkPangram basic",
   actual: checkPangram("the quick brown fox jumps over the lazy dog"),
   expected: true,
 });

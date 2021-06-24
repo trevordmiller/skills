@@ -2,7 +2,7 @@ import test from "./test.js";
 import checkMatchingBrackets from "../src/checkMatchingBrackets.js";
 
 test({
-  description: "checkMatchingBrackets baseline",
+  description: "checkMatchingBrackets basic",
   actual: checkMatchingBrackets("Hello (world)"),
   expected: true,
 });

@@ -2,7 +2,7 @@ import test from "./test.js";
 import calculateMaximumYahtzeeScore from "../src/calculateMaximumYahtzeeScore.js";
 
 test({
-  description: "calculateMaximumYahtzeeScore baseline",
+  description: "calculateMaximumYahtzeeScore basic",
   actual: calculateMaximumYahtzeeScore([2, 3, 5, 5, 6]),
   expected: 10,
 });

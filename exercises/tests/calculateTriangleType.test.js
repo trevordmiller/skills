@@ -2,7 +2,7 @@ import test from "./test.js";
 import calculateTriangleType from "../src/calculateTriangleType.js";
 
 test({
-  description: "calculateTriangleType baseline",
+  description: "calculateTriangleType basic",
   actual: calculateTriangleType("42 42 5"),
   expected: "isosceles",
 });

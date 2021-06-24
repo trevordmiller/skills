@@ -2,7 +2,7 @@ import test from "./test.js";
 import addGigasecond from "../src/addGigasecond.js";
 
 test({
-  description: "addGigasecond baseline",
+  description: "addGigasecond basic",
   actual: addGigasecond("2011-04-25T00:00:00.000Z"),
   expected: "2043-01-01T01:46:40.000Z",
 });

@@ -2,7 +2,7 @@ import test from "./test.js";
 import convertMorseCode from "../src/convertMorseCode.js";
 
 test({
-  description: "convertMorseCode baseline",
+  description: "convertMorseCode basic",
   actual: convertMorseCode("three"),
   expected: "-.....-...",
 });

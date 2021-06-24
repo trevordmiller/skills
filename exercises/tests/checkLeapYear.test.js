@@ -2,7 +2,7 @@ import test from "./test.js";
 import checkLeapYear from "../src/checkLeapYear.js";
 
 test({
-  description: "checkLeapYear baseline",
+  description: "checkLeapYear basic",
   actual: checkLeapYear("1976"),
   expected: true,
 });

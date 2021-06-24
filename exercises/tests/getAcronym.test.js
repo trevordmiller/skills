@@ -2,7 +2,7 @@ import test from "./test.js";
 import getAcronym from "../src/getAcronym.js";
 
 test({
-  description: "getAcronym baseline",
+  description: "getAcronym basic",
   actual: getAcronym("Portable Network Graphics"),
   expected: "PNG",
 });

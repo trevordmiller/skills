@@ -2,7 +2,7 @@ import test from "./test.js";
 import findMatchingDay from "../src/findMatchingDay.js";
 
 test({
-  description: "findMatchingDay baseline",
+  description: "findMatchingDay basic",
   actual: findMatchingDay("first Monday of January 2000"),
   expected: "2000-01-03",
 });

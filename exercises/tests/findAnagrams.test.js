@@ -2,7 +2,7 @@ import test from "./test.js";
 import findAnagrams from "../src/findAnagrams.js";
 
 test({
-  description: "findAnagrams baseline",
+  description: "findAnagrams basic",
   actual: findAnagrams({
     word: "allergy",
     possibleAnagrams: [

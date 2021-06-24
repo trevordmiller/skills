@@ -2,7 +2,7 @@ import test from "./test.js";
 import checkLetterBalance from "../src/checkLetterBalance.js";
 
 test({
-  description: "checkLetterBalance baseline",
+  description: "checkLetterBalance basic",
   actual: checkLetterBalance("xxxyyy"),
   expected: true,
 });

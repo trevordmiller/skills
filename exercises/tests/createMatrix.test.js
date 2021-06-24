@@ -2,7 +2,7 @@ import test from "./test.js";
 import createMatrix from "../src/createMatrix.js";
 
 test({
-  description: "createMatrix baseline",
+  description: "createMatrix basic",
   actual: createMatrix("1 2\n3 4"),
   expected: {
     rows: [[1, 2], [3, 4]],

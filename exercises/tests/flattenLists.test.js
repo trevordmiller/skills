@@ -2,7 +2,7 @@ import test from "./test.js";
 import flattenLists from "../src/flattenLists.js";
 
 test({
-  description: "flattenLists baseline",
+  description: "flattenLists basic",
   actual: flattenLists([1, [2, 3]]),
   expected: [1, 2, 3],
 });

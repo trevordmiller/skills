@@ -2,7 +2,7 @@ import test from "./test.js";
 import generateDiamondAlphabet from "../src/generateDiamondAlphabet.js";
 
 test({
-  description: "generateDiamondAlphabet baseline",
+  description: "generateDiamondAlphabet basic",
   actual: generateDiamondAlphabet("N"),
   expected: [
     "             A             ",

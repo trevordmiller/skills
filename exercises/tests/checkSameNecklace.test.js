@@ -2,7 +2,7 @@ import test from "./test.js";
 import checkSameNecklace from "../src/checkSameNecklace.js";
 
 test({
-  description: "checkSameNecklace baseline",
+  description: "checkSameNecklace basic yes",
   actual: checkSameNecklace({
     original: "nicole",
     possibleVariation: "lenico",

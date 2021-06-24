@@ -2,7 +2,7 @@ import test from "./test.js";
 import concealMessage from "../src/concealMessage.js";
 
 test({
-  description: "concealMessage baseline",
+  description: "concealMessage basic",
   actual: concealMessage({
     message: "iamapandabear",
     key: "ddddddddddddd",

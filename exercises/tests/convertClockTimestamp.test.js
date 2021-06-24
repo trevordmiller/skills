@@ -2,7 +2,7 @@ import test from "./test.js";
 import convertClockTimestamp from "../src/convertClockTimestamp.js";
 
 test({
-  description: "convertClockTimestamp baseline",
+  description: "convertClockTimestamp basic",
   actual: convertClockTimestamp({
     hours: 6,
     minutes: 9,

@@ -2,7 +2,7 @@ import test from "./test.js";
 import calculateBowlingScore from "../src/calculateBowlingScore.js";
 
 test({
-  description: "calculateBowlingScore baseline",
+  description: "calculateBowlingScore basic",
   actual: calculateBowlingScore([
     3,
     6,

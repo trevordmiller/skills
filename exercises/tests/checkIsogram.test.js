@@ -2,7 +2,7 @@ import test from "./test.js";
 import checkIsogram from "../src/checkIsogram.js";
 
 test({
-  description: "checkIsogram baseline",
+  description: "checkIsogram basic",
   actual: checkIsogram("lumberjacks"),
   expected: true,
 });

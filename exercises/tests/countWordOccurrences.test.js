@@ -2,7 +2,7 @@ import test from "./test.js";
 import countWordOccurrences from "../src/countWordOccurrences.js";
 
 test({
-  description: "countWordOccurrences baseline",
+  description: "countWordOccurrences basic",
   actual: countWordOccurrences("hello world"),
   expected: ({
     hello: 1,

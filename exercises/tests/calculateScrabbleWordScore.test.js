@@ -2,7 +2,7 @@ import test from "./test.js";
 import calculateScrabbleWordScore from "../src/calculateScrabbleWordScore.js";
 
 test({
-  description: "calculateScrabbleWordScore baseline",
+  description: "calculateScrabbleWordScore basic",
   actual: calculateScrabbleWordScore("cabbage"),
   expected: 14,
 });

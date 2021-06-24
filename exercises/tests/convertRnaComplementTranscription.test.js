@@ -2,7 +2,7 @@ import test from "./test.js";
 import convertRnaComplementTranscription from "../src/convertRnaComplementTranscription.js";
 
 test({
-  description: "convertRnaComplementTranscription baseline",
+  description: "convertRnaComplementTranscription basic",
   actual: convertRnaComplementTranscription("TGC"),
   expected: "ACG",
 });

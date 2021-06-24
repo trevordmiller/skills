@@ -2,7 +2,7 @@ import test from "./test.js";
 import calculateResistorColorValue from "../src/calculateResistorColorValue.js";
 
 test({
-  description: "calculateResistorColorValue baseline",
+  description: "calculateResistorColorValue basic",
   actual: calculateResistorColorValue(["yellow", "violet"]),
   expected: 47,
 });

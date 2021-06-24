@@ -2,7 +2,7 @@ import test from "./test.js";
 import countNucleotides from "../src/countNucleotides.js";
 
 test({
-  description: "countNucleotides baseline",
+  description: "countNucleotides basic",
   actual: countNucleotides("GATTACA"),
   expected: ({
     adenine: 3,

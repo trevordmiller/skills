@@ -2,7 +2,7 @@ import test from "./test.js";
 import calculateMathAnswer from "../src/calculateMathAnswer.js";
 
 test({
-  description: "calculateMathAnswer baseline",
+  description: "calculateMathAnswer basic",
   actual: calculateMathAnswer("What is 40 plus 2?"),
   expected: "The answer is 42.",
 });
