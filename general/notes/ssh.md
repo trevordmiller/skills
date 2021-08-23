@@ -1,5 +1,7 @@
 # SSH
 
+[ssh.com/ssh/command](https://www.ssh.com/ssh/command)
+
 ## Start an ssh process on a remote machine
 
 ```shell

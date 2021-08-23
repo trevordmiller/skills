@@ -1,5 +1,7 @@
 # HTML
 
+[html.spec.whatwg.org](https://html.spec.whatwg.org)
+
 ## Create a document
 
 ```html

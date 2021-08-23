@@ -1,5 +1,7 @@
 # Linux
 
+[kernel.org/doc/man-pages/](https://www.kernel.org/doc/man-pages/)
+
 ## Navigate the filesystem
 
 ```shell

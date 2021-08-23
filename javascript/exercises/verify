@@ -1,0 +1,15 @@
+#!/bin/sh
+
+if ! command -v deno > /dev/null; then
+  echo "Error: deno is required"
+  exit 1
+fi
+
+echo "Running tests"
+deno test 
+
+echo "Running linter"
+deno lint 
+
+echo "Running formatter check"
+deno fmt --check
