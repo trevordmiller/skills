@@ -5,11 +5,14 @@ if ! command -v deno > /dev/null; then
   exit 1
 fi
 
+echo ""
 echo "Running tests"
 deno test 
 
+echo ""
 echo "Running linter"
 deno lint 
 
+echo ""
 echo "Running formatter check"
 deno fmt --check
