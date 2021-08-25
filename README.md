@@ -12,37 +12,32 @@ My personal skills. I use this repository to help me:
 
 ## My Guiding Principles
 
-- Recognize tradeoffs.
+- Recognize trade-offs.
 - Identify root problems before solutions.
 - Break problems into small pieces.
 - Avoid abstracting until clear.
 
 Examples:
 
-- Defaults over configuration.
-- Direct over layers.
-- Native over dependencies.
+- Stable over new.
 - Classic over innovative.
 - Foundational over trending.
 - Standard over custom.
+- Native over dependencies.
+- Defaults over configuration.
 - Simple over flexible.
-- Iteration over overhaul.
+- Direct over layers.
 - Concrete over generic.
-- Explicit over automatic.
-- Decoupled over integrated.
-- Lightweight over feature-rich.
-- Minimal over convenient.
+- Declarative over imperative.
+- Deterministic over stateful.
+- Static over runtime.
 - Fast over portable.
 - Semantic over visual.
-- Static over runtime.
-- Deterministic over stateful.
-- Declarative over imperative.
-- Composition over inheritance.
-- Quality over quantity.
+- Iteration over overhaul.
 
 > "Although {some 3rd party thing} looks exciting, I feel the value may not be
-> worth the cost. I would suggest that we stick with {some native thing} instead
-> for the stability tradeoff."
+> worth the cost. I would suggest that we stick with {some official thing} instead
+> for the stability trade-off."
 
 > "It sounds like the problem we are trying to solve is that end users need to
 > be able to submit a date with this form so that they can know what day to plan
@@ -78,7 +73,7 @@ Examples:
 > interface to make sure that it can handle when there is no input or when the
 > object has more fields than we expected as well as some baseline situations.
 > Those tests would then run in CI so that we won't be able to merge a pull
-> request if we accidently break the interface."
+> request if we accidentally break the interface."
 
 > "It looks like we need this logic in 42 other projects. What if we encapsulate
 > it in a package with tests and a changelog and then we could use semantic
