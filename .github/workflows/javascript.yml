@@ -10,11 +10,13 @@ jobs:
       run:
         working-directory: javascript/exercises
     steps:
-      - name: Checkout source code
+      - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Install toolchain
+      - name: Install JavaScript toolchain
         run: |
           curl -fsSL https://deno.land/x/install/install.sh | sh -s v1.12.0
           echo "$HOME/.deno/bin" >> "$GITHUB_PATH"
-      - name: Run verification script
-        run: ./verify
+      - name: Run JavaScript tests
+        run: deno test
+      - name: Run JavaScript linter
+        run: deno lint
