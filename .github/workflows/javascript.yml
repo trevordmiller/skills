@@ -1,9 +1,9 @@
-name: JavaScript Exercises
+name: JavaScript
 on:
   push:
     paths:
       - ".github/workflows/javascript.yml"
-      - "javascript/exercises/**"
+      - "javascript/**"
 jobs:
   javascript-exercises:
     name: JavaScript Exercises
@@ -18,7 +18,7 @@ jobs:
         run: |
           curl -fsSL https://deno.land/x/install/install.sh | sh -s v1.12.0
           echo "$HOME/.deno/bin" >> "$GITHUB_PATH"
-      - name: Run JavaScript tests
+      - name: Run tests in JavaScript Exercises
         run: deno test
-      - name: Run JavaScript linter
+      - name: Run lint in JavaScript Exercises
         run: deno lint
