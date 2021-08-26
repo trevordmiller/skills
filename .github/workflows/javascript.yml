@@ -2,6 +2,7 @@ name: JavaScript Exercises
 on:
   push:
     paths:
+      - ".github/workflows/javascript.yml"
       - "javascript/exercises/**"
 jobs:
   javascript-exercises:
