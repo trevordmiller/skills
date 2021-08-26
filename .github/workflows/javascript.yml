@@ -20,5 +20,5 @@ jobs:
           echo "$HOME/.deno/bin" >> "$GITHUB_PATH"
       - name: Run tests in JavaScript Exercises
         run: deno test
-      - name: Run lint in JavaScript Exercises
+      - name: Run linting in JavaScript Exercises
         run: deno lint
