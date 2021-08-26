@@ -4,7 +4,8 @@ on:
     paths:
       - "javascript/exercises/**"
 jobs:
-  verify:
+  javascript-exercises:
+    name: JavaScript Exercises
     runs-on: ubuntu-latest
     defaults:
       run:
