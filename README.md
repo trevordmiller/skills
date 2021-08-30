@@ -1,23 +1,29 @@
 # skills
 
-My personal skills. I use this repository to help me:
-
-- Keep existing skills strong.
-- Learn new skills.
-- Share skills with others.
+My personal skills.
 
 > "I don't even have any good skills...You know, like nunchuck skills, bow
 > hunting skills, computer hacking skills. Girls only want boyfriends who have
 > great skills." - Napoleon Dynamite
 
-## My Guiding Principles
+## Goals
 
-- Recognize trade-offs.
-- Identify root problems before solutions.
-- Break problems into small pieces.
-- Avoid abstracting until clear.
+I use this repository to help me with my skills related to code, including:
 
-Examples:
+- Keeping existing skills strong.
+- Learning new skills.
+- Sharing skills with others.
+
+## Principles
+
+I use some principles to help me when working with code, including:
+
+- Recognizing trade-offs.
+- Identifying root problems before solutions.
+- Breaking problems into small pieces.
+- Avoiding abstracting until clear.
+
+For example:
 
 - Stable over new.
 - Classic over innovative.
@@ -32,6 +38,7 @@ Examples:
 - Deterministic over stateful.
 - Static over runtime.
 - Fast over portable.
+- Lightweight over powerful.
 - Semantic over visual.
 - Iteration over overhaul.
 
