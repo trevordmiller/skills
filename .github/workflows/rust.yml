@@ -18,8 +18,8 @@ jobs:
         run: |
           curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
           echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
-          rustup install 1.53.0
-          rustup default 1.53.0
+          rustup install 1.54.0
+          rustup default 1.54.0
       - name: Run compiling in Rust Exercises
         run: cargo check
       - name: Run tests in Rust Exercises
