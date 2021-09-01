@@ -8,15 +8,12 @@ pub fn is_same(letters: &str, variation: &str) -> bool {
     }
 
     let mut index = 0;
-    let possible_variations: Vec<String> = letters
-        .chars()
-        .map(|_| {
-            index += 1;
-            let head = &letters[0..index];
-            let tail = &letters[index..];
-            format!("{}{}", tail, head)
-        })
-        .collect();
+    let mut possible_variations = letters.chars().map(|_| {
+        index += 1;
+        let head = &letters[0..index];
+        let tail = &letters[index..];
+        format!("{}{}", tail, head)
+    });
 
-    possible_variations.contains(&variation.to_string())
+    possible_variations.any(|possible_variation| possible_variation == variation)
 }
